@@ -1,10 +1,9 @@
 # ImageCaptionGenerator
 The repo contains a machine-learning model to generate captions for an image. The model is deployed on the web using Streamlit and ngrok.
 The code of the model can be found in **model_code.ipynb** while the deployment code code is in **deploy_code.ipynb**.
-Details of the dataset and Model Architecture are as follows
 
 # Dataset
-The model is trained on the flickr8k dataset, which can be found here: https://www.kaggle.com/datasets/adityajn105/flickr8k?select=Images
+The model is trained on the [flickr8k](https://www.kaggle.com/datasets/adityajn105/flickr8k?select=Images) dataset.
 The dataset consists of around 8000 images with an average of 5 captions per image.
 
 # Model Architecture
